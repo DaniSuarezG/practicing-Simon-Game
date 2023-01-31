@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SIMON GAME</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div id="game">
+		<h1>REBOOT SIMON</h1>
+
+		<div class="container">
+			<div class="btn rojo"></div>
+			<div class="btn verde"></div>
+			<div class="btn amarillo"></div>
+			<div class="btn azul"></div>
+			<div id="start">START</div>
+		</div>
+
+		<div class="counter-container">
+			<div id="counter">CURRENT GAME: <span id="points">0</span> points</div>
+			<div id="max-counter">MAX SCORE: 0 points</div>
+		</div>
+	</div>
+
+	<script src="colors.js"></script>
+	<script src="sequence.js"></script>
+	<script src="game.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>

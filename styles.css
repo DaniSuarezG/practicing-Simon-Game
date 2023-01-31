@@ -1,0 +1,86 @@
+#game {
+	text-align: center;
+}
+
+.container {
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+#start {
+	position: absolute;
+	background-color: black;
+	color: white;
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 150px;
+}
+
+#start:hover {
+	color: white;
+	border: 3px solid white;
+	transition: scale 1s linear;
+}
+
+.btn {
+	width: 200px;
+	height: 200px;
+	border: 5px solid black;
+	box-sizing: border-box;
+}
+
+.rojo {
+	background-color: hsl(0, 50%, 60%);
+	border-radius: 100% 0 0 0;
+}
+
+.rojo:hover,
+.rojo.active {
+	background-color: hsl(0, 100%, 50%);
+}
+
+.amarillo {
+	background-color: hsl(60, 50%, 60%);
+	border-radius: 0 100%  0 0;
+}
+.amarillo:hover,
+.amarillo.active {
+	background-color: hsl(60, 100%, 50%);
+}
+
+.azul {
+	background-color: hsl(240, 50%, 60%);
+	border-radius: 0 0 100%  0;
+}
+.azul:hover,
+.azul.active {
+	background-color: hsl(240, 100%, 50%);
+}
+
+.verde {
+	background-color: hsl(120, 50%, 65%);
+	border-radius: 0 0 0 100%;
+}
+.verde:hover,
+.verde.active {
+	background-color: hsl(120, 100%, 50%);
+}
+
+
+.counter-container {
+	margin: 40px auto;
+	width: 300px;
+}
+
+#counter {
+	margin-bottom: 10px;
+}
